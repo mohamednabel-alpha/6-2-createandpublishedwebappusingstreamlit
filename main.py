@@ -16,3 +16,5 @@ enjoy it!
 """)
 st.write(df)
 st.line_chart(df)
+myslider=st.slider("Celsius")
+st.write(myslider, "in Celsius is in Fahrenheit is",myslider*9/5+32)
